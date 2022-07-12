@@ -37,7 +37,7 @@
 
 ## Models Prediction
 
-### Model 1: rmse 1202.47
+#### Model 1: rmse 1202.47
 
 ```
 model1 = XGBRegressor(random_state=42, n_jobs=-1,n_estimators=1000, 
@@ -49,7 +49,7 @@ model1 = XGBRegressor(random_state=42, n_jobs=-1,n_estimators=1000,
 ```
 
 
-### Model 2: rmse 1324.47
+#### Model 2: rmse 1324.47
 
 ```
 model2 = XGBRegressor(random_state=42, n_jobs=-1,n_estimators=1000, 
@@ -59,7 +59,7 @@ model2 = XGBRegressor(random_state=42, n_jobs=-1,n_estimators=1000,
                       colsample_bytree=0.7)
 ```
 
-### Model 3: rmse 1491.72 
+#### Model 3: rmse 1491.72 
 
 ```
 model3 = XGBRegressor(random_state=42, n_jobs=-1,n_estimators=1000, 
@@ -67,4 +67,24 @@ model3 = XGBRegressor(random_state=42, n_jobs=-1,n_estimators=1000,
                       max_depth=15, 
                       subsample=0.8, 
                       colsample_bytree=0.8)
+```
+
+#### Model 4: rmse 1656.49 
+
+```
+model4 = XGBRegressor(random_state=42, n_jobs=-1,n_estimators=1000, 
+                      learning_rate=0.75, 
+                      max_depth=20, 
+                      subsample=0.9, 
+                      colsample_bytree=0.9)
+```
+
+#### Model 5: rmse 1307.28
+
+```
+model5 = XGBRegressor(random_state=42, n_jobs=-1,n_estimators=1000, 
+                      learning_rate=0.05, 
+                      max_depth=10, 
+                      subsample=0.3, 
+                      colsample_bytree=0.3)
 ```
