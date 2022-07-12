@@ -118,7 +118,7 @@ model8 = XGBRegressor(random_state=42, n_jobs=-1,n_estimators=1000,
                       colsample_bytree=0.5)
 ```
 
-#### Model 9: rmse 11240.06
+#### Model 9: rmse 1240.06
 
 ```
 model9 = XGBRegressor(random_state=42, n_jobs=-1,
