@@ -5,10 +5,16 @@
 
 ## Overview
 
+* Predict Daily Sale for a retail store Rossman
 * **Dataset: 1 million rows from Kaggle competition**
+
 * **Machine Learning Models** 
 * **XGBoost Regressor**
-
+* Expan and modify from Jovian Data Science
+* https://jovian.ai/learn/machine-learning-with-python-zero-to-gbms/lesson/gradient-boosting-with-xgboost
+* **Expand: Data Visulization**
+* **Modify: DayOfWeek Feature and Hyperparameter Tunning**
+* Kaggle submission score is 0.146
 
 ## Visualization
 
