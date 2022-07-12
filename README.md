@@ -10,7 +10,7 @@
 
 * **Machine Learning Models** 
 * **XGBoost Regressor**
-* Expan and modify from Jovian Data Science
+* Expand and modify from Jovian Data Science
 * https://jovian.ai/learn/machine-learning-with-python-zero-to-gbms/lesson/gradient-boosting-with-xgboost
 * **Expand: Data Visualization**
 * **Modify: DayOfWeek Feature and Hyperparameter Tunning**
