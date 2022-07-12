@@ -43,7 +43,7 @@
 
 ## Models Prediction
 
-#### Model 1: rmse 1202.47
+#### Model 1: RMSE 1202.47
 
 ```
 model1 = XGBRegressor(random_state=42, n_jobs=-1,n_estimators=1000, 
@@ -55,7 +55,7 @@ model1 = XGBRegressor(random_state=42, n_jobs=-1,n_estimators=1000,
 ```
 
 
-#### Model 2: rmse 1324.47
+#### Model 2: RMSE  1324.47
 
 ```
 model2 = XGBRegressor(random_state=42, n_jobs=-1,n_estimators=1000, 
@@ -65,7 +65,7 @@ model2 = XGBRegressor(random_state=42, n_jobs=-1,n_estimators=1000,
                       colsample_bytree=0.7)
 ```
 
-#### Model 3: rmse 1491.72 
+#### Model 3: RMSE  1491.72 
 
 ```
 model3 = XGBRegressor(random_state=42, n_jobs=-1,n_estimators=1000, 
@@ -75,7 +75,7 @@ model3 = XGBRegressor(random_state=42, n_jobs=-1,n_estimators=1000,
                       colsample_bytree=0.8)
 ```
 
-#### Model 4: rmse 1656.49 
+#### Model 4: RMSE  1656.49 
 
 ```
 model4 = XGBRegressor(random_state=42, n_jobs=-1,n_estimators=1000, 
@@ -85,7 +85,7 @@ model4 = XGBRegressor(random_state=42, n_jobs=-1,n_estimators=1000,
                       colsample_bytree=0.9)
 ```
 
-#### Model 5: rmse 1307.28
+#### Model 5: RMSE 1307.28
 
 ```
 model5 = XGBRegressor(random_state=42, n_jobs=-1,n_estimators=1000, 
@@ -94,7 +94,7 @@ model5 = XGBRegressor(random_state=42, n_jobs=-1,n_estimators=1000,
                       subsample=0.3, 
                       colsample_bytree=0.3)
 ```
-#### Model 6: rmse 1282.54
+#### Model 6: RMSE  1282.54
 
 ```
 model6 = XGBRegressor(random_state=42, n_jobs=-1,n_estimators=1000, 
@@ -104,7 +104,7 @@ model6 = XGBRegressor(random_state=42, n_jobs=-1,n_estimators=1000,
                       colsample_bytree=0.4)
 ```
 
-#### Model 7: rmse 1547.29
+#### Model 7: RMSE 1547.29
 
 ```
 model7 = XGBRegressor(random_state=42, n_jobs=-1,n_estimators=1000, 
@@ -114,7 +114,7 @@ model7 = XGBRegressor(random_state=42, n_jobs=-1,n_estimators=1000,
                       colsample_bytree=0.5)
 ```
 
-#### Model 8: rmse 1211.96
+#### Model 8: RMSE  1211.96
 
 ```
 model8 = XGBRegressor(random_state=42, n_jobs=-1,n_estimators=1000, 
@@ -124,7 +124,7 @@ model8 = XGBRegressor(random_state=42, n_jobs=-1,n_estimators=1000,
                       colsample_bytree=0.5)
 ```
 
-#### Model 9: rmse 1240.06
+#### Model 9: RMSE  1240.06
 
 ```
 model9 = XGBRegressor(random_state=42, n_jobs=-1,
@@ -135,7 +135,7 @@ model9 = XGBRegressor(random_state=42, n_jobs=-1,
                       colsample_bytree=0.5)
 ```
 
-#### Model 10: rmse 1226.53
+#### Model 10: RMSE  1226.53
 
 ```
 model10 = XGBRegressor(random_state=42, n_jobs=-1,
