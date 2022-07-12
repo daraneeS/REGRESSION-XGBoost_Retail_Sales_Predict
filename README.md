@@ -12,7 +12,7 @@
 * **XGBoost Regressor**
 * Expan and modify from Jovian Data Science
 * https://jovian.ai/learn/machine-learning-with-python-zero-to-gbms/lesson/gradient-boosting-with-xgboost
-* **Expand: Data Visulization**
+* **Expand: Data Visualization**
 * **Modify: DayOfWeek Feature and Hyperparameter Tunning**
 * Kaggle submission score is 0.146
 
